@@ -17,3 +17,4 @@ $hash = HashHelper::create('password');
 HashHelper::check('password', $hash)
 ```
 
+Licensed under the MIT license.
