@@ -4,4 +4,6 @@ require 'HashHelper.php';
 
 use App\HashHelper;
 
-echo HashHelper::create('password'); 
+$hash = HashHelper::create('password'); 
+var_dump(HashHelper::check('notpass', $hash)); 
+var_dump(HashHelper::check('password', $hash));
